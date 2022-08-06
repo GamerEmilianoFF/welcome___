@@ -88,7 +88,7 @@ Load.TextScaled = true
 Load.TextSize = 14.000
 Load.TextWrapped = true
 Load.MouseButton1Down:Connect(function()
-	--script
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerEmilianoFF/scripts/main/trip%20hub%20premiun%20kavo"))()
 	Welcome:Destroy()
 end)
 
